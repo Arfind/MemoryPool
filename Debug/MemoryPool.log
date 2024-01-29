@@ -1,0 +1,44 @@
+﻿  MemoryPool.cpp
+D:\projacts\C++\MemoryPool\MemoryPool\MemoryPool.cpp(79,15): error C3861: “posix_memalign”: 找不到标识符
+D:\projacts\C++\MemoryPool\MemoryPool\MemoryPool.cpp(84,81): error C2440: “=”: 无法从“unsigned char *”转换为“mp_node_s *”
+D:\projacts\C++\MemoryPool\MemoryPool\MemoryPool.cpp(84,55): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\projacts\C++\MemoryPool\MemoryPool\MemoryPool.cpp(115,15): error C3861: “posix_memalign”: 找不到标识符
+D:\projacts\C++\MemoryPool\MemoryPool\MemoryPool.cpp(133,55): error C2440: “=”: 无法从“void *”转换为“mp_large_s *”
+D:\projacts\C++\MemoryPool\MemoryPool\MemoryPool.cpp(133,22): message : 从“void*”到指向非“void”的指针的强制转换要求显式类型强制转换
+D:\projacts\C++\MemoryPool\MemoryPool\MemoryPool.cpp(148,15): error C3861: “posix_memalign”: 找不到标识符
+D:\projacts\C++\MemoryPool\MemoryPool\MemoryPool.cpp(156,91): error C2440: “初始化”: 无法从“void *”转换为“unsigned char *”
+D:\projacts\C++\MemoryPool\MemoryPool\MemoryPool.cpp(156,29): message : 从“void*”到指向非“void”的指针的强制转换要求显式类型强制转换
+D:\projacts\C++\MemoryPool\MemoryPool\MemoryPool.cpp(190,61): error C2440: “=”: 无法从“void *”转换为“unsigned char *”
+D:\projacts\C++\MemoryPool\MemoryPool\MemoryPool.cpp(190,24): message : 从“void*”到指向非“void”的指针的强制转换要求显式类型强制转换
+D:\projacts\C++\MemoryPool\MemoryPool\MemoryPool.cpp(191,37): warning C4018: “>=”: 有符号/无符号不匹配
+D:\projacts\C++\MemoryPool\MemoryPool\MemoryPool.cpp(279,44): error C2664: “void monitor_mp_poll(mp_pool_s *,char *)”: 无法将参数 2 从“const char [19]”转换为“char *”
+D:\projacts\C++\MemoryPool\MemoryPool\MemoryPool.cpp(279,24): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+D:\projacts\C++\MemoryPool\MemoryPool\MemoryPool.cpp(244,6): message : 参见“monitor_mp_poll”的声明
+D:\projacts\C++\MemoryPool\MemoryPool\MemoryPool.cpp(291,46): error C2664: “void monitor_mp_poll(mp_pool_s *,char *)”: 无法将参数 2 从“const char [16]”转换为“char *”
+D:\projacts\C++\MemoryPool\MemoryPool\MemoryPool.cpp(291,24): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+D:\projacts\C++\MemoryPool\MemoryPool\MemoryPool.cpp(244,6): message : 参见“monitor_mp_poll”的声明
+D:\projacts\C++\MemoryPool\MemoryPool\MemoryPool.cpp(296,46): error C2664: “void monitor_mp_poll(mp_pool_s *,char *)”: 无法将参数 2 从“const char [16]”转换为“char *”
+D:\projacts\C++\MemoryPool\MemoryPool\MemoryPool.cpp(296,24): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+D:\projacts\C++\MemoryPool\MemoryPool\MemoryPool.cpp(244,6): message : 参见“monitor_mp_poll”的声明
+D:\projacts\C++\MemoryPool\MemoryPool\MemoryPool.cpp(300,36): error C2440: “初始化”: 无法从“void *”转换为“char *”
+D:\projacts\C++\MemoryPool\MemoryPool\MemoryPool.cpp(300,18): message : 从“void*”到指向非“void”的指针的强制转换要求显式类型强制转换
+D:\projacts\C++\MemoryPool\MemoryPool\MemoryPool.cpp(308,45): error C2664: “void monitor_mp_poll(mp_pool_s *,char *)”: 无法将参数 2 从“const char [15]”转换为“char *”
+D:\projacts\C++\MemoryPool\MemoryPool\MemoryPool.cpp(308,24): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+D:\projacts\C++\MemoryPool\MemoryPool\MemoryPool.cpp(244,6): message : 参见“monitor_mp_poll”的声明
+D:\projacts\C++\MemoryPool\MemoryPool\MemoryPool.cpp(311,35): error C2440: “初始化”: 无法从“void *”转换为“char *”
+D:\projacts\C++\MemoryPool\MemoryPool\MemoryPool.cpp(311,18): message : 从“void*”到指向非“void”的指针的强制转换要求显式类型强制转换
+D:\projacts\C++\MemoryPool\MemoryPool\MemoryPool.cpp(313,44): error C2664: “void monitor_mp_poll(mp_pool_s *,char *)”: 无法将参数 2 从“const char [14]”转换为“char *”
+D:\projacts\C++\MemoryPool\MemoryPool\MemoryPool.cpp(313,24): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+D:\projacts\C++\MemoryPool\MemoryPool\MemoryPool.cpp(244,6): message : 参见“monitor_mp_poll”的声明
+D:\projacts\C++\MemoryPool\MemoryPool\MemoryPool.cpp(320,56): error C2664: “void monitor_mp_poll(mp_pool_s *,char *)”: 无法将参数 2 从“const char [23]”转换为“char *”
+D:\projacts\C++\MemoryPool\MemoryPool\MemoryPool.cpp(320,24): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+D:\projacts\C++\MemoryPool\MemoryPool\MemoryPool.cpp(244,6): message : 参见“monitor_mp_poll”的声明
+D:\projacts\C++\MemoryPool\MemoryPool\MemoryPool.cpp(325,56): error C2664: “void monitor_mp_poll(mp_pool_s *,char *)”: 无法将参数 2 从“const char [23]”转换为“char *”
+D:\projacts\C++\MemoryPool\MemoryPool\MemoryPool.cpp(325,24): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+D:\projacts\C++\MemoryPool\MemoryPool\MemoryPool.cpp(244,6): message : 参见“monitor_mp_poll”的声明
+D:\projacts\C++\MemoryPool\MemoryPool\MemoryPool.cpp(328,36): error C2664: “void monitor_mp_poll(mp_pool_s *,char *)”: 无法将参数 2 从“const char [11]”转换为“char *”
+D:\projacts\C++\MemoryPool\MemoryPool\MemoryPool.cpp(328,24): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+D:\projacts\C++\MemoryPool\MemoryPool\MemoryPool.cpp(244,6): message : 参见“monitor_mp_poll”的声明
+D:\projacts\C++\MemoryPool\MemoryPool\MemoryPool.cpp(333,47): error C2664: “void monitor_mp_poll(mp_pool_s *,char *)”: 无法将参数 2 从“const char [17]”转换为“char *”
+D:\projacts\C++\MemoryPool\MemoryPool\MemoryPool.cpp(333,24): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+D:\projacts\C++\MemoryPool\MemoryPool\MemoryPool.cpp(244,6): message : 参见“monitor_mp_poll”的声明
